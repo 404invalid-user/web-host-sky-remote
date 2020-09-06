@@ -1,0 +1,16 @@
+{
+  "name": "sky-remote-web-server",
+  "version": "1.0.0",
+  "description": "Web interface for sending remote control commands to a Sky TV box.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "404invalid-user",
+  "license": "MIT",
+  "dependencies": {
+    "sky-remote": "^1.2.0",
+    "socket.io": "^2.3.0"
+  }
+}

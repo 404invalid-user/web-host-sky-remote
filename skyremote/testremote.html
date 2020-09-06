@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sky Remote</title>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer type="text/javascript" src="client.js"></script>
+
+    <body>
+        <div>
+            <label for='ip'>IP:</label>
+            <input id='ip' type='text' value='192.168.0.10'>
+            <p></p>
+        </div>
+        <hr>
+        <center>
+            <button onclick="pressButton('sky')">sky</button>
+            <br>
+            <button onclick="pressButton('power')">on / off</button>
+            <button onclick="pressButton('search')">search</button>
+            <br>
+            <button onclick="pressButton('rewind')">rewind</button>
+            <button onclick="pressButton('play')">play</button>
+            <button onclick="pressButton('fastforward')">fastforward</button>
+            <br>
+            <button onclick="pressButton('up')">up</button>
+            <br>
+            <button onclick="pressButton('left')">left</button>
+            <button onclick="pressButton('select')">select</button>
+            <button onclick="pressButton('right')">right</button>
+            <br>
+            <button onclick="pressButton('down')">down</button>
+            <br>
+            <button onclick="pressButton('backup')">backup</button>
+            <button onclick="pressButton('home')">Home</button>
+            <button onclick="pressButton('sidebar')">sidebar</button>
+            <br>
+            <button>volume up</button>
+            <button>mute</button>
+            <button onclick="pressButton('i')">i</button>
+            <button onclick="pressButton('channelup')">channelup</button>
+            <br>
+            <button>volume up</button>
+            <button onclick="pressButton('record')">record</button>
+            <button onclick="pressButton('channeldown')">channeldown</button>
+            <br>
+            <button onclick="pressButton('red')">red</button>
+            <button onclick="pressButton('green')">green</button>
+            <button onclick="pressButton('yellow')">yellow</button>
+            <button onclick="pressButton('blue')">blue</button>
+            <br>
+            <button onclick="pressButton('1')">1</button>
+            <button onclick="pressButton('2')">2</button>
+            <button onclick="pressButton('3')">3</button>
+            <br>
+            <button onclick="pressButton('4')">4</button>
+            <button onclick="pressButton('5')">5</button>
+            <button onclick="pressButton('6')">6</button>
+            <br>
+            <button onclick="pressButton('7')">7</button>
+            <button onclick="pressButton('8')">8</button>
+            <button onclick="pressButton('9')">9</button>
+            <br>
+            <button>sorce</button>
+            <button onclick="pressButton('0')">0</button>
+            <button onclick="pressButton('help')">help</button>
+            <br>
+            <br>
+            <p>dont really do anything on sky-Q box</p>
+            <button onclick="pressButton('tvguide')">tv Guide</button>
+            <button onclick="pressButton('boxoffice')">boxoffice</button>
+            <button onclick="pressButton('services')">services</button>
+            <button onclick="pressButton('interactive')">interactive</button>
+            <button onclick="pressButton('dismiss')">dismiss</button>
+            <button onclick="pressButton('text')">text</button>
+            <button onclick="pressButton('pause')">pause</button>
+            <button onclick="pressButton('stop')">stop</button>
+            <br>
+        </center>
+    </body>
+
+</html>
