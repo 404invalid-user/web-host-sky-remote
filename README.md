@@ -14,4 +14,4 @@ git pull to your hosting device then
 
 > node .
 
-any questions crate a issue.
+any questions create an issue.
